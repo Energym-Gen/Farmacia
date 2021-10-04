@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import com.Generation.Farmacia.model.ProdutoModel;
 /*importa classe ProdutoRepository*/
-import com.Generation.Farmacia.repository.ProdutoRepository;
+import com.Generation.Farmacia.Repository.ProdutoRepository;
 
 @RestController
 @RequestMapping("/produto")
