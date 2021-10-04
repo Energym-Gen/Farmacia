@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import com.Generation.Farmacia.model.CategoriaModel;
-import com.Generation.Farmacia.repository.CategoriaRepository;
+import com.Generation.Farmacia.Repository.CategoriaRepository;
 
 @RestController
 @RequestMapping("/categoria")
